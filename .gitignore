@@ -1,0 +1,20 @@
+node_modules/
+.env
+dist/
+build/
+
+# Hardhat
+contracts/artifacts/
+contracts/cache/
+contracts/typechain-types/
+
+# Backend uploads
+backend/uploads/
+
+# Misc
+.DS_Store
+*.log
+npm-debug.log*
+
+# Claude Code local settings
+.claude/
