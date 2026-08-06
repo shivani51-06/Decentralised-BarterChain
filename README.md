@@ -1,8 +1,20 @@
 # BarterChain - Decentralised Barter Marketplace MVP
 
-A full-stack Web3 barter platform where users exchange physical goods while staking MATIC (Polygon Mumbai testnet) as collateral via an on-chain escrow contract.
+A full-stack Web3 barter platform where users exchange physical goods while staking MATIC (Polygon testnet) as collateral via an on-chain escrow contract.
 
 **Architecture:** Blockchain handles financial trust. Backend handles real-world logistics.
+
+---
+
+## Live Demo
+
+- **App:** https://decentralised-barter-chain-p17u.vercel.app
+- **Backend API:** https://barterchain-backend.onrender.com/api/health
+- **Repo:** https://github.com/shivani51-06/Decentralised-BarterChain
+
+> The backend is on Render's free tier and spins down after ~15 min of inactivity — the first request after a while may take 30–60s to wake it up.
+
+Listings, wallet connect, trade requests/acceptance, and profiles are fully functional on the live demo. The on-chain escrow steps (deposit stake, confirm, dispute) require a deployed smart contract, which isn't live yet — those steps work end-to-end when run locally against a Hardhat node (see below).
 
 ---
 
