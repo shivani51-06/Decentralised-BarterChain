@@ -1,4 +1,4 @@
-# BarterChain — Decentralised Barter Marketplace MVP
+# BarterChain - Decentralised Barter Marketplace MVP
 
 A full-stack Web3 barter platform where users exchange physical goods while staking MATIC (Polygon Mumbai testnet) as collateral via an on-chain escrow contract.
 
@@ -122,7 +122,7 @@ Use **two browser profiles** with different MetaMask accounts, both on the Hardh
 
 ---
 
-### Creating the on-chain trade (Step 5 — local dev)
+### Creating the on-chain trade (Step 5 - local dev)
 
 ```bash
 cd contracts
