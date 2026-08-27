@@ -201,7 +201,7 @@ await contract.resolveDispute(TRADE_ID, "WINNER_WALLET_ADDRESS")
 
 ```
 penalty    = stakeAmount × 30%
-winnerPayout = stakeAmount          (100% — their own 70% + loser's 30%)
+winnerPayout = stakeAmount          (100% - their own 70% + loser's 30%)
 loserRefund  = stakeAmount × 70%
 ownerFee     = stakeAmount × 30%    (admin fee)
 
